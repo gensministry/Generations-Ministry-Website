@@ -3,116 +3,451 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gens Ministry | Generations Ministry</title>
+
+  <title>Generations Ministry</title>
+
+  <meta name="description" content="Generations Ministry — Raising generations for Christ.">
+  <meta name="theme-color" content="#1f3c88">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="nav">
-    <a class="brand" href="#home">
-      <img src="logo.jpg" alt="Generations Ministry logo">
-      <span>GENS MINISTRY</span>
-    </a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="menu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#sermons">Sermons</a>
-      <a href="#events">Events</a>
-      <a href="#connect">Connect</a>
-      <a class="nav-give" href="#give">Give</a>
-    </nav>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#home" class="logo">
+        <span class="logo-text">Generations Ministry</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#ministries">Ministries</a>
+        <a href="#events">Events</a>
+        <a href="#sermons">Sermons</a>
+        <a href="#give">Give</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
   </header>
 
+
+  <!-- ================= HERO ================= -->
   <main>
-    <section id="home" class="hero">
-      <div class="hero-glow"></div>
-      <div class="hero-content">
-        <p class="eyebrow">GENERATIONS MINISTRY</p>
-        <h1>God doesn't lie.</h1>
-        <p class="verse">“God, who does not lie...” — Titus 1:2</p>
-        <p class="intro">A place where generations discover God, grow in faith, and live His truth together.</p>
-        <div class="actions">
-          <a class="btn gold" href="#sermons">Watch Messages</a>
-          <a class="btn outline" href="#visit">Plan Your Visit</a>
+
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <p class="hero-small">WELCOME TO</p>
+
+        <h1>Generations Ministry</h1>
+
+        <p class="hero-text">
+          Raising generations that know God, love people,
+          and live for Christ.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Learn More</a>
+          <a href="#contact" class="btn btn-secondary">Join Us</a>
         </div>
-      </div>
-      <div class="hero-mark">
-        <img src="logo.jpg" alt="">
+
       </div>
     </section>
 
-    <section class="welcome">
-      <div>
-        <p class="eyebrow navy">WELCOME HOME</p>
-        <h2>There is a place for every generation.</h2>
-      </div>
-      <p>Generations Ministry exists to point people to Jesus, build genuine community, and help every generation walk in God's truth.</p>
-    </section>
 
-    <section id="about" class="cards-section">
-      <div class="section-heading">
-        <p class="eyebrow navy">WHO WE ARE</p>
-        <h2>Growing together.</h2>
-      </div>
-      <div class="cards">
-        <article><span>01</span><h3>Know God</h3><p>Discover God's Word and grow in a real relationship with Him.</p></article>
-        <article><span>02</span><h3>Find Community</h3><p>Build meaningful friendships and belong to a Christ-centered family.</p></article>
-        <article><span>03</span><h3>Live the Mission</h3><p>Serve people, share hope, and make a difference in our community.</p></article>
-      </div>
-    </section>
+    <!-- ================= WELCOME ================= -->
+    <section class="welcome section">
+      <div class="container">
 
-    <section id="sermons" class="message">
-      <div>
-        <p class="eyebrow gold-text">LATEST MESSAGE</p>
-        <h2>Hear the Word.<br>Live the truth.</h2>
-        <p>Our sermon library will live here. We'll connect this section to your YouTube channel or video library in the next stage.</p>
-        <a class="btn gold" href="#">Watch Sermons</a>
-      </div>
-      <div class="message-box"><div class="play">▶</div><p>Latest sermon video</p></div>
-    </section>
+        <p class="section-label">WELCOME</p>
 
-    <section id="events" class="events">
-      <div class="section-heading">
-        <p class="eyebrow navy">WHAT'S HAPPENING</p>
-        <h2>Upcoming events.</h2>
-      </div>
-      <div class="event">
-        <div class="date"><strong>04</strong><span>OCT</span></div>
-        <div><h3>Sunday Fellowship</h3><p>Join Gens Ministry for worship, God's Word and fellowship.</p><small>4:00 PM · Zana</small></div>
-        <a href="#" class="arrow">→</a>
+        <h2>A Place for Every Generation</h2>
+
+        <p>
+          Generations Ministry exists to help people encounter God,
+          grow in faith, discover their purpose, and impact their
+          generation for Jesus Christ.
+        </p>
+
+        <p>
+          Whether you are young or old, new to faith or have walked
+          with Christ for years, there is a place for you here.
+        </p>
+
       </div>
     </section>
 
-    <section id="connect" class="connect">
-      <div>
-        <p class="eyebrow gold-text">GET CONNECTED</p>
-        <h2>You don't have to walk alone.</h2>
-      </div>
-      <div class="connect-links">
-        <a href="#"><span>🙏</span> Prayer Request</a>
-        <a href="#"><span>🤝</span> Join a Ministry</a>
-        <a href="#"><span>📍</span> Visit Gens Ministry</a>
-        <a href="#give"><span>❤️</span> Give</a>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about section" id="about">
+      <div class="container">
+
+        <p class="section-label">WHO WE ARE</p>
+
+        <h2>About Generations Ministry</h2>
+
+        <p>
+          Generations Ministry is a Christ-centered ministry committed
+          to reaching, discipling, equipping, and empowering people
+          from every generation.
+        </p>
+
+        <p>
+          We believe that every generation has a purpose in God's plan.
+          Our desire is to see people transformed by the Word of God
+          and equipped to make a difference in their families,
+          communities, and world.
+        </p>
+
+        <div class="values-grid">
+
+          <div class="value-card">
+            <h3>Faith</h3>
+            <p>
+              Building strong faith through God's Word,
+              prayer, and fellowship.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <h3>Community</h3>
+            <p>
+              Creating a loving family where everyone
+              can belong and grow.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <h3>Purpose</h3>
+            <p>
+              Helping people discover and live out
+              God's purpose for their lives.
+            </p>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
-    <section id="give" class="give">
-      <p class="eyebrow navy">GENEROSITY</p>
-      <h2>Let's make a difference together.</h2>
-      <p>We'll add your official giving options here once you tell me how Gens Ministry receives giving.</p>
-      <a class="btn dark" href="#">Give to Gens Ministry</a>
+
+    <!-- ================= MINISTRIES ================= -->
+    <section class="ministries section" id="ministries">
+      <div class="container">
+
+        <p class="section-label">OUR MINISTRIES</p>
+
+        <h2>Growing Together</h2>
+
+        <div class="ministry-grid">
+
+          <article class="ministry-card">
+            <div class="card-icon">🙏</div>
+            <h3>Prayer</h3>
+            <p>
+              Growing together through prayer and seeking
+              God's presence.
+            </p>
+          </article>
+
+          <article class="ministry-card">
+            <div class="card-icon">📖</div>
+            <h3>Word & Discipleship</h3>
+            <p>
+              Learning God's Word and becoming mature
+              followers of Christ.
+            </p>
+          </article>
+
+          <article class="ministry-card">
+            <div class="card-icon">👨‍👩‍👧‍👦</div>
+            <h3>Generations</h3>
+            <p>
+              Connecting different generations and
+              building stronger families.
+            </p>
+          </article>
+
+          <article class="ministry-card">
+            <div class="card-icon">❤️</div>
+            <h3>Outreach</h3>
+            <p>
+              Sharing the love of Jesus and serving
+              our communities.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
     </section>
 
-    <section id="visit" class="visit">
-      <div><p class="eyebrow gold-text">PLAN YOUR VISIT</p><h2>We'd love to meet you.</h2></div>
-      <div><p><strong>Gens Ministry</strong></p><p>Zana, Kampala, Uganda</p><p>Service time: coming soon</p></div>
+
+    <!-- ================= EVENTS ================= -->
+    <section class="events section" id="events">
+      <div class="container">
+
+        <p class="section-label">WHAT'S HAPPENING</p>
+
+        <h2>Upcoming Events</h2>
+
+        <div class="events-grid">
+
+          <article class="event-card">
+            <div class="event-date">
+              <span>JOIN</span>
+              <strong>US</strong>
+            </div>
+
+            <div class="event-info">
+              <h3>Fellowship</h3>
+              <p>
+                Come together for a time of fellowship,
+                prayer, worship, and the Word.
+              </p>
+              <a href="#contact">Get Details →</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date">
+              <span>GROW</span>
+              <strong>WITH</strong>
+            </div>
+
+            <div class="event-info">
+              <h3>Bible Study</h3>
+              <p>
+                Discover God's Word and grow deeper
+                in your relationship with Christ.
+              </p>
+              <a href="#contact">Get Details →</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
     </section>
+
+
+    <!-- ================= SERMONS ================= -->
+    <section class="sermons section" id="sermons">
+      <div class="container">
+
+        <p class="section-label">GROW IN THE WORD</p>
+
+        <h2>Sermons & Messages</h2>
+
+        <p>
+          Be encouraged, challenged, and strengthened through
+          God's Word.
+        </p>
+
+        <div class="sermon-box">
+
+          <div class="sermon-icon">🎙️</div>
+
+          <div>
+            <h3>Messages from Generations Ministry</h3>
+
+            <p>
+              New messages and teachings will be shared here.
+              Check back regularly for encouragement from God's Word.
+            </p>
+
+            <a href="#contact" class="btn btn-primary">
+              Contact Us
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= GIVE ================= -->
+    <section class="give section" id="give">
+      <div class="container">
+
+        <p class="section-label">SUPPORT THE MINISTRY</p>
+
+        <h2>Give & Partner With Us</h2>
+
+        <p>
+          Your generosity helps Generations Ministry reach people,
+          support ministry activities, and advance the work of
+          God's Kingdom.
+        </p>
+
+        <div class="give-box">
+
+          <h3>Mobile Money</h3>
+
+          <p>
+            You can support the ministry through the following
+            mobile money numbers:
+          </p>
+
+          <div class="phone-number">
+            +256 760 395110
+          </div>
+
+          <div class="phone-number">
+            +256 708 974665
+          </div>
+
+          <p class="give-note">
+            Thank you for partnering with Generations Ministry.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact section" id="contact">
+      <div class="container">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Contact Generations Ministry</h2>
+
+        <p>
+          We would love to hear from you, pray with you,
+          and help you connect with the ministry.
+        </p>
+
+        <div class="contact-grid">
+
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+
+            <h3>Email</h3>
+
+            <a href="mailto:gensministry@gmail.com">
+              gensministry@gmail.com
+            </a>
+          </div>
+
+
+          <div class="contact-card">
+            <div class="contact-icon">📱</div>
+
+            <h3>Phone</h3>
+
+            <a href="tel:+256760395110">
+              +256 760 395110
+            </a>
+
+            <a href="tel:+256708974665">
+              +256 708 974665
+            </a>
+          </div>
+
+
+          <div class="contact-card">
+            <div class="contact-icon">🌍</div>
+
+            <h3>Location</h3>
+
+            <p>
+              Uganda
+            </p>
+          </div>
+
+        </div>
+
+        <div class="social-section">
+
+          <h3>Connect With Us</h3>
+
+          <p>
+            Follow Generations Ministry on social media
+            and stay connected with what God is doing.
+          </p>
+
+          <div class="social-links">
+
+            <a href="#" aria-label="Facebook">
+              Facebook
+            </a>
+
+            <a href="#" aria-label="Instagram">
+              Instagram
+            </a>
+
+            <a href="#" aria-label="YouTube">
+              YouTube
+            </a>
+
+            <a href="#" aria-label="TikTok">
+              TikTok
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <div class="footer-brand"><img src="logo.jpg" alt="Gens Ministry logo"><div><strong>GENS MINISTRY</strong><span>God doesn't lie · Titus 1:2</span></div></div>
-    <p>© 2026 Generations Ministry. All rights reserved.</p>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div>
+        <h3>Generations Ministry</h3>
+
+        <p>
+          Raising generations for Christ.
+        </p>
+      </div>
+
+      <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#ministries">Ministries</a>
+        <a href="#events">Events</a>
+        <a href="#sermons">Sermons</a>
+        <a href="#give">Give</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p>
+        © <span id="year"></span> Generations Ministry.
+        All rights reserved.
+      </p>
+
+    </div>
+
   </footer>
+
+
+  <!-- ================= SCRIPT ================= -->
   <script src="script.js"></script>
+
 </body>
 </html>
