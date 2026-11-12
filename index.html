@@ -6,154 +6,120 @@
 <title>Generations Ministry - God Doesn't Lie</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#f6f1e7;color:#1a1a1a}
-header{background:#0b1e3a;color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+body{background:#f7f2e7;color:#1a1a1a}
+header{background:#0a1e3a;color:#fff;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
 .logo{display:flex;align-items:center;gap:10px}
 .logo img{width:52px;height:52px;border-radius:50%;object-fit:cover;background:#fff;border:2px solid #d4af37}
-.logo b{font-size:15px;line-height:1.2;letter-spacing:.5px}
-.logo span{font-size:10px;color:#d4af37;letter-spacing:1.5px}
-nav a{color:#fff;text-decoration:none;margin-left:12px;font-size:13px;font-weight:bold}
-.give-btn{background:#d4af37;color:#0b1e3a;padding:9px 16px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:13px}
-.hero{background:linear-gradient(rgba(11,30,58,.92),rgba(11,30,58,.88)),url('logo.jpg');background-size:cover;background-position:center;color:#fff;text-align:center;padding:55px 20px 45px}
-.hero small{color:#d4af37;letter-spacing:2px;font-weight:bold;font-size:12px}
-.hero h1{font-size:34px;line-height:1.1;margin:12px 0}
-.hero h1 em{color:#d4af37;font-style:italic}
-.hero p{opacity:.9;max-width:600px;margin:12px auto;line-height:1.6}
-.btn{display:inline-block;padding:13px 24px;border-radius:25px;text-decoration:none;font-weight:bold;margin:6px;font-size:14px}
-.btn-gold{background:#d4af37;color:#0b1e3a}
-.btn-white{background:#fff;color:#0b1e3a}
+.logo b{font-size:15px;line-height:1.15}
+.logo span{font-size:10px;color:#d4af37;letter-spacing:1.5px;font-weight:bold}
+.give-btn{background:#d4af37;color:#0a1e3a;padding:9px 15px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:13px;white-space:nowrap}
+.hero{background:linear-gradient(180deg,rgba(10,30,58,.35),rgba(10,30,58,.92)),url('pastor.jpg');background-size:cover;background-position:center top;color:#fff;text-align:center;padding:70px 20px 40px}
+.hero small{background:#d4af37;color:#0a1e3a;padding:6px 12px;border-radius:20px;font-weight:bold;font-size:11px;letter-spacing:1px}
+.hero h1{font-size:36px;line-height:1.05;margin:18px 0 10px;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.hero h1 em{color:#ffd700;font-style:italic}
+.hero p{max-width:600px;margin:10px auto;line-height:1.6;opacity:.95}
+.btn{display:inline-block;padding:13px 22px;border-radius:25px;text-decoration:none;font-weight:bold;margin:6px;font-size:14px}
+.btn-gold{background:#d4af37;color:#0a1e3a}
+.btn-white{background:#fff;color:#0a1e3a}
 .btn-outline{border:1.5px solid #fff;color:#fff}
-section{padding:38px 18px;max-width:950px;margin:auto}
-h2{font-size:26px;color:#0b1e3a;text-align:center;line-height:1.2}
-h2 span{color:#d4af37}
-.sub{text-align:center;color:#666;margin:10px auto 22px;max-width:650px;line-height:1.6}
-.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 6px 22px rgba(0,0,0,.07);margin-bottom:14px}
-.pastor-card{text-align:center}
-.pastor-card img{width:145px;height:145px;border-radius:50%;object-fit:cover;border:5px solid #d4af37}
-.pastor-card h3{margin-top:12px;font-size:20px}
-.pastor-card p{color:#d4af37;font-weight:bold;font-size:13px}
+section{padding:35px 16px;max-width:960px;margin:auto}
+h2{font-size:27px;color:#0a1e3a;text-align:center;line-height:1.2}
+h2 span{color:#c9a227}
+.gold-line{width:60px;height:4px;background:#d4af37;margin:12px auto;border-radius:10px}
+.sub{text-align:center;color:#666;margin:0 auto 20px;max-width:650px;line-height:1.6}
+.card{background:#fff;border-radius:18px;padding:20px;box-shadow:0 8px 25px rgba(0,0,0,.08);margin-bottom:14px}
+.pastor-wrap{background:#0a1e3a;border-radius:20px;padding:22px;text-align:center;color:#fff}
+.pastor-wrap img{width:150px;height:150px;border-radius:50%;object-fit:cover;border:5px solid #d4af37}
+.pastor-wrap h3{margin-top:12px;font-size:22px}
+.pastor-wrap p{color:#d4af37;font-weight:bold}
 .values{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;text-align:center}
-.values b{color:#0b1e3a}
-.values span{font-size:28px}
+.values .card{padding:18px 10px}
+.values span{font-size:30px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ministry{border-left:5px solid #d4af37}
-.ministry h3{color:#0b1e3a}
+.ministry{border-top:5px solid #d4af37}
+.ministry h3{color:#0a1e3a}
 .ministry p{color:#555;line-height:1.5;margin-top:6px;font-size:14px}
-.tag{display:inline-block;background:#fff3c4;color:#7a5a00;padding:5px 10px;border-radius:20px;font-size:12px;font-weight:bold;margin-top:10px}
-.service-box{background:#0b1e3a;color:#fff;border-radius:16px;padding:22px}
+.tag{display:inline-block;background:#fff3c4;color:#7a5a00;padding:5px 11px;border-radius:20px;font-size:12px;font-weight:bold;margin-top:10px}
+.service-box{background:#0a1e3a;color:#fff;border-radius:20px;padding:24px}
 .service-box h2{color:#fff}
-.service-box p{line-height:1.7}
-.connect{background:#fff;border-radius:16px;padding:24px;text-align:center}
-.connect a{display:block;background:#f6f1e7;padding:13px;border-radius:12px;text-decoration:none;color:#0b1e3a;font-weight:bold;margin:8px 0}
+.service-box p{line-height:1.75}
+.connect{background:#fff;border-radius:18px;padding:22px;text-align:center}
+.connect a{display:flex;justify-content:space-between;align-items:center;background:#f7f2e7;padding:14px 14px;border-radius:12px;text-decoration:none;color:#0a1e3a;font-weight:bold;margin:8px 0;text-align:left}
 .connect a small{display:block;color:#666;font-weight:normal}
-footer{background:#0b1e3a;color:#fff;text-align:center;padding:28px 16px}
-footer a{color:#d4af37;text-decoration:none;margin:0 6px;font-weight:bold}
-@media(max-width:650px){.values{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}nav{display:none}.hero h1{font-size:28px}}
+footer{background:#0a1e3a;color:#fff;text-align:center;padding:28px 16px}
+footer a{color:#d4af37;text-decoration:none;margin:0 5px;font-weight:bold}
 input,textarea{width:100%;padding:12px;margin:7px 0;border:1px solid #ddd;border-radius:10px}
+@media(max-width:650px){.values{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.hero h1{font-size:32px}}
 </style>
 </head>
 <body>
-
 <header>
-<div class="logo">
-<img src="logo.jpg" alt="Generations Ministry Logo">
-<div><b>GENERATIONS<br>MINISTRY</b><br><span>GOD DOESN'T LIE</span></div>
-</div>
-<nav><a href="#about">About</a><a href="#ministries">Ministries</a><a href="#services">Services</a><a href="#connect">Connect</a></nav>
+<div class="logo"><img src="logo.jpg" alt="Logo"><div><b>GENERATIONS<br>MINISTRY</b><br><span>GOD DOESN'T LIE</span></div></div>
 <a class="give-btn" href="#give">Give Now ❤️</a>
 </header>
 
 <div class="hero">
 <small>✦ WELCOME TO GENERATIONS MINISTRY ✦</small>
 <h1>God Doesn't <em>Lie.</em><br>Generations Will Rise.</h1>
-<p>A family church in Kampala raising generations that know God, love people, and transform Uganda. There is a place for you here.</p>
+<p>A family church in Kampala raising generations that know God, love people, and transform Uganda.</p>
 <a class="btn btn-gold" href="#services">Join Us This Sunday →</a>
 <a class="btn btn-white" href="#ministries">Explore All Ministries</a>
 <br><a class="btn btn-outline" href="#pastor">Meet Pastor Lucky</a>
 </div>
 
 <section id="pastor">
-<h2>MEET OUR <span>LEAD PASTOR</span></h2>
-<p class="sub">Led with love, faith and vision for the next generation.</p>
-<div class="card pastor-card">
-<img src="pastor.jpg" alt="Pastor Lucky Claudette">
-<h3>Lucky Claudette</h3>
-<p>Lead Pastor, Generations Ministry</p>
-</div>
+<h2>MEET OUR <span>LEAD PASTOR</span></h2><div class="gold-line"></div>
+<div class="pastor-wrap"><img src="pastor.jpg" alt="Pastor Lucky Claudette"><h3>Lucky Claudette</h3><p>Lead Pastor, Generations Ministry</p><p style="color:#fff;opacity:.85;font-weight:normal;margin-top:8px;line-height:1.5">Led with love, faith and vision for the next generation.</p></div>
 </section>
 
 <section id="about">
-<h2>We Are <span>Generations</span></h2>
+<h2>We Are <span>Generations</span></h2><div class="gold-line"></div>
 <p class="sub">Not just a church. A family. A movement. A home for every generation.</p>
 <div class="values">
-<div class="card"><span>🙏</span><br><b>FAITH</b><br><small>We believe God doesn't lie. His promises are true.</small></div>
-<div class="card"><span>❤️</span><br><b>FAMILY</b><br><small>Everyone belongs. No one walks alone.</small></div>
-<div class="card"><span>🌍</span><br><b>GENERATIONS</b><br><small>Raising children, youth & adults for Christ.</small></div>
+<div class="card"><span>🙏</span><br><b>FAITH</b><br><small>We believe God doesn't lie.</small></div>
+<div class="card"><span>❤️</span><br><b>FAMILY</b><br><small>Everyone belongs.</small></div>
+<div class="card"><span>🌍</span><br><b>GENERATIONS</b><br><small>Raising all ages for Christ.</small></div>
 </div>
-<div class="card" style="text-align:center;line-height:1.7"><b>Our Mission:</b> To raise generations that know God, love people, and transform Uganda.<br><b>Our Vision:</b> A church where every generation encounters Jesus and lives out their purpose.</div>
+<div class="card" style="text-align:center;line-height:1.7"><b>Our Mission:</b> To raise generations that know God, love people, and transform Uganda.<br><b>Our Vision:</b> Every generation encounters Jesus and lives out their purpose.</div>
 </section>
 
 <section id="ministries">
-<h2>Our <span>Ministries</span></h2>
-<p class="sub">There is a place for you to grow and serve. Explore all ministries below.</p>
+<h2>Our <span>Ministries</span></h2><div class="gold-line"></div>
+<p class="sub">There is a place for you to grow and serve.</p>
 <div class="grid2">
-<div class="card ministry"><h3>🎤 Worship & Music</h3><p>Leading generations into God's presence through powerful worship, choir and instruments.</p><span class="tag">Join Team</span></div>
-<div class="card ministry"><h3>👧 Kids Church</h3><p>Fun, safe and faith-filled classes for our youngest generation. They learn God loves them.</p><span class="tag">Ages 2 - 12</span></div>
-<div class="card ministry"><h3>🔥 Youth - Generations Next</h3><p>Bold youth on fire for God. Worship, teaching, mentorship and real friendship.</p><span class="tag">Sunday 5 OM</span></div>
-<div class="card ministry"><h3>🙏 Prayer & Intercession</h3><p>Standing in the gap for families, Uganda and the nations. God hears us.</p><span class="tag">Friday 10 PM</span></div>
-<div class="card ministry"><h3>📖 Bible Study & Discipleship</h3><p>Grow deep in the Word. Learn, ask questions, and become a disciple who makes disciples.</p><span class="tag">Wednesday 5:30 PM</span></div>
-<div class="card ministry"><h3>🤝 Outreach & Community</h3><p>Serving Kampala with love — visiting, giving, and sharing Jesus beyond the church walls.</p><span class="tag">Serve With Us</span></div>
+<div class="card ministry"><h3>🎤 Worship & Music</h3><p>Leading generations into God's presence through worship, choir and instruments.</p><span class="tag">Join Team</span></div>
+<div class="card ministry"><h3>👧 Kids Church</h3><p>Fun, safe and faith-filled classes for our youngest generation.</p><span class="tag">Ages 2 - 12</span></div>
+<div class="card ministry"><h3>🔥 Youth - Generations Next</h3><p>Bold youth on fire for God. Worship, teaching and real friendship.</p><span class="tag">Saturday 10 AM</span></div>
+<div class="card ministry"><h3>🙏 Prayer & Intercession</h3><p>Standing in the gap for families, Uganda and the nations.</p><span class="tag">Friday 5 PM</span></div>
+<div class="card ministry"><h3>📖 Bible Study & Discipleship</h3><p>Grow deep in the Word and become a disciple who makes disciples.</p><span class="tag">Wednesday 5:30 PM</span></div>
+<div class="card ministry"><h3>🤝 Outreach & Community</h3><p>Serving Kampala with love — giving and sharing Jesus beyond the walls.</p><span class="tag">Serve With Us</span></div>
 </div>
 <div style="text-align:center;margin-top:16px"><a class="btn btn-gold" href="#connect">Explore All Ministries → Join One</a></div>
 </section>
 
 <section id="services">
-<div class="service-box">
-<h2>SERVICE TIMES</h2>
-<p style="text-align:center;color:#d4af37;font-weight:bold">Join us this week</p><br>
-<p>☀️ <b>Sunday Celebration:</b> 5:00 PM - 8:00 PM<br>Worship, Word & Prayer — Main Service</p><br>
-<p>📖 <b>Wednesday Bible Study:</b> 5:30 PM - 7:00 PM</p>
-<p>🙏 <b>Friday Prayer:</b> 10:00 PM - 5:00 AM</p>
-<p>👧 <b>Youth & Kids:</b> Sunday 5:00 PM</p><br>
-<p>📍 <b>Location:</b> Kampala, Uganda<br>📞 <b>Phone / WhatsApp:</b> +256 760 395 110</p>
-</div>
+<div class="service-box"><h2>SERVICE TIMES</h2><div class="gold-line"></div><p style="text-align:center;color:#d4af37;font-weight:bold">Join us this week</p><br><p>☀️ <b>Sunday Celebration:</b> 9:00 AM - 12:00 PM<br>Worship, Word & Prayer</p><br><p>📖 <b>Wednesday Bible Study:</b> 5:30 PM - 7:00 PM</p><p>🙏 <b>Friday Prayer:</b> 5:00 PM - 6:30 PM</p><p>👧 <b>Youth & Kids:</b> Saturday 10:00 AM</p><br><p>📍 <b>Location:</b> Kampala, Uganda<br>📞 <b>Phone / WhatsApp:</b> +256 760 395 110</p></div>
 </section>
 
 <section id="give">
-<h2>Make A <span>Difference</span></h2>
-<p class="sub">Your giving helps us raise generations, support families, and spread the Gospel in Kampala and beyond.</p>
-<div class="card" style="text-align:center">
-<h3 style="color:#0b1e3a">Give With Love ❤️</h3><br>
-<p style="line-height:1.6">Mobile Money / Bank details will be shared on request via WhatsApp.<br>Every seed matters. God bless you.</p><br>
-<a class="btn btn-gold" href="https://wa.me/256760395110?text=Hello%20Generations%20Ministry%2C%20I%20want%20to%20give">Give Now → WhatsApp</a>
-</div>
+<h2>Make A <span>Difference</span></h2><div class="gold-line"></div>
+<p class="sub">Your giving helps us raise generations and spread the Gospel.</p>
+<div class="card" style="text-align:center"><h3>Give With Love ❤️</h3><br><p style="line-height:1.6">Mobile Money / Bank details will be shared on request via WhatsApp.<br>Every seed matters. God bless you.</p><br><a class="btn btn-gold" href="https://wa.me/256760395110?text=Hello%20Generations%20Ministry%2C%20I%20want%20to%20give">Give Now → WhatsApp</a></div>
 </section>
 
 <section id="connect">
-<h2>Connect <span>With Us</span></h2>
-<p class="sub">We would love to hear from you. Prayer request? Visit? Join a ministry? Talk to us.</p>
+<h2>Connect <span>With Us</span></h2><div class="gold-line"></div>
+<p class="sub">Prayer request? Visit? Join a ministry? Talk to us.</p>
 <div class="connect">
-<a href="https://wa.me/256760395110">💬 WhatsApp Us<small>Chat directly — +256 760 395 110</small></a>
-<a href="#">📘 Facebook<small>Generations Ministry Kampala</small></a>
-<a href="#">📸 Instagram<small>@generationsministry.ug</small></a>
-<a href="#">🎵 TikTok<small>@generationsministry</small></a>
-<a href="#">▶️ YouTube<small>Generations Ministry</small></a>
-<br>
-<form>
-<input type="text" placeholder="Your Name">
-<input type="text" placeholder="Your Phone / WhatsApp">
-<textarea rows="3" placeholder="Your Prayer Request or Message"></textarea>
-<a class="btn btn-gold" href="https://wa.me/256760395110" style="display:block;text-align:center">Send on WhatsApp</a>
-</form>
+<a href="https://wa.me/256760395110"><span>💬 WhatsApp Us<small>Chat directly — +256 760 395 110</small></span><span>→</span></a>
+<a href="#"><span>📘 Facebook<small>Generations Ministry Kampala</small></span><span>→</span></a>
+<a href="#"><span>📸 Instagram<small>@generationsministry.ug</small></span><span>→</span></a>
+<a href="#"><span>🎵 TikTok<small>@generationsministry</small></span><span>→</span></a>
+<a href="#"><span>▶️ YouTube<small>Generations Ministry</small></span><span>→</span></a>
+<br><form><input type="text" placeholder="Your Name"><input type="text" placeholder="Your Phone / WhatsApp"><textarea rows="3" placeholder="Your Prayer Request or Message"></textarea><a class="btn btn-gold" href="https://wa.me/256760395110" style="display:block;text-align:center">Send on WhatsApp</a></form>
 </div>
 </section>
 
-<footer>
-<b>GENERATIONS MINISTRY</b><br><span style="color:#d4af37">GOD DOESN'T LIE</span><br><br>
-Kampala, Uganda • +256 760 395 110<br><br>
-<a href="#">Facebook</a> • <a href="#">Instagram</a> • <a href="#">YouTube</a> • <a href="#">TikTok</a>
-<br><br><small>© 2026 Generations Ministry. All Rights Reserved.</small>
-</footer>
-
+<footer><b>GENERATIONS MINISTRY</b><br><span style="color:#d4af37">GOD DOESN'T LIE</span><br><br>Kampala, Uganda • +256 760 395 110<br><br><a href="#">Facebook</a> • <a href="#">Instagram</a> • <a href="#">YouTube</a> • <a href="#">TikTok</a><br><br><small>© 2026 Generations Ministry. All Rights Reserved.</small></footer>
 </body>
   </html>
