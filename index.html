@@ -1,118 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gens Ministry | Generations Ministry</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generations Ministry | God Doesn't Lie</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#fff;color:#0A2342}
+a{text-decoration:none;color:inherit}
+.top{background:#0A2342;color:#fff;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:99}
+.logo{display:flex;gap:12px;align-items:center}
+.logo-circle{width:52px;height:52px;background:#EAB308;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px}
+.logo b{color:#EAB308;font-size:18px;line-height:1.1;display:block}
+.logo span{font-size:12px;color:#ccc}
+nav{display:flex;gap:20px;font-size:14px;align-items:center}
+.btn-gold{background:#EAB308;color:#0A2342;padding:10px 22px;border-radius:25px;font-weight:bold;border:none;cursor:pointer}
+.hero{background:#0A2342;color:#fff;padding:70px 5%;background-image:linear-gradient(rgba(10,35,66,.75),rgba(10,35,66,.75)),url('https://images.unsplash.com/photo-1507692049790-de58290a4334?w=1200');background-size:cover;background-position:center}
+.hero small{color:#EAB308;letter-spacing:2px}
+.hero h1{font-size:58px;line-height:1;margin:12px 0}
+.hero h1 em{color:#EAB308;font-style:normal}
+.hero p{max-width:520px;color:#ddd;margin-bottom:22px;line-height:1.6}
+.btn-outline{border:2px solid #fff;color:#fff;padding:10px 22px;border-radius:25px;background:transparent}
+.bar{background:#FFF8E1;display:flex;flex-wrap:wrap;justify-content:space-between;padding:20px 5%;gap:15px}
+.bar b{display:block;font-size:13px;color:#888}
+.bar strong{font-size:16px}
+.section{padding:50px 5%}
+.about{display:flex;flex-wrap:wrap;gap:30px;align-items:flex-start}
+.about>div{flex:1;min-width:280px}
+.about img{width:100%;border-radius:12px}
+.pastor-card{background:#FFFBEB;border:1px solid #eee;border-radius:16px;padding:20px;text-align:center;max-width:320px}
+.pastor-card img{width:100%;height:280px;object-fit:cover;border-radius:12px}
+.pastor-card h3{margin-top:12px;font-size:22px}
+.pastor-card p{color:#555;font-size:14px}
+.ministries{background:#0A2342;color:#fff}
+.min-grid{display:flex;flex-wrap:wrap;gap:20px;margin-top:25px}
+.min{flex:1;min-width:120px;text-align:center}
+.circle{width:70px;height:70px;border-radius:50%;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;font-size:30px;color:#fff}
+.watch{background:#0A2342;color:#fff;text-align:center;padding:18px 5%}
+.watch span{color:#EAB308}
+.connect{display:flex;flex-wrap:wrap;gap:25px}
+.card{border:1px solid #eee;border-radius:12px;padding:18px;flex:1;min-width:140px}
+.events-box{background:#f7f7f7;border:2px dashed #ddd;border-radius:12px;padding:30px;text-align:center;color:#777}
+.give{background:#0A2342;color:#fff;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px}
+footer{background:#071A33;color:#fff;padding:35px 5%;font-size:14px;line-height:1.9}
+footer a{color:#EAB308}
+@media(max-width:700px){.hero h1{font-size:38px}nav{display:none}}
+</style>
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#home">
-      <img src="logo.jpg" alt="Generations Ministry logo">
-      <span>GENS MINISTRY</span>
-    </a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="menu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#sermons">Sermons</a>
-      <a href="#events">Events</a>
-      <a href="#connect">Connect</a>
-      <a class="nav-give" href="#give">Give</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-glow"></div>
-      <div class="hero-content">
-        <p class="eyebrow">GENERATIONS MINISTRY</p>
-        <h1>God doesn't lie.</h1>
-        <p class="verse">“God, who does not lie...” — Titus 1:2</p>
-        <p class="intro">A place where generations discover God, grow in faith, and live His truth together.</p>
-        <div class="actions">
-          <a class="btn gold" href="#sermons">Watch Messages</a>
-          <a class="btn outline" href="#visit">Plan Your Visit</a>
-        </div>
-      </div>
-      <div class="hero-mark">
-        <img src="logo.jpg" alt="">
-      </div>
-    </section>
+<div class="top">
+  <div class="logo"><div class="logo-circle">✝️</div><div><b>GENERATIONS MINISTRY</b><span>GENS MINISTRY • God doesn't lie — Titus 1:2</span></div></div>
+  <nav><a href="#">Home</a><a href="#about">About</a><a href="#ministries">Ministries</a><a href="#events">Events</a><a href="#give">Give</a><a href="#contact">Contact</a><a href="#contact" class="btn-gold">Join Us</a></nav>
+</div>
 
-    <section class="welcome">
-      <div>
-        <p class="eyebrow navy">WELCOME HOME</p>
-        <h2>There is a place for every generation.</h2>
-      </div>
-      <p>Generations Ministry exists to point people to Jesus, build genuine community, and help every generation walk in God's truth.</p>
-    </section>
+<div class="hero">
+  <small>GENERATIONS MINISTRY</small>
+  <h1>God <em>doesn't lie.</em></h1>
+  <p><b>Titus 1:2</b><br>A generation discovering God, growing in faith, and living His truth together.</p>
+  <a href="#watch" class="btn-gold">▶ Watch Online</a> &nbsp; <a href="#contact" class="btn-outline">Plan Your Visit</a>
+  <p style="margin-top:20px;color:#EAB308;font-style:italic;font-size:20px;">Real People • Real Faith • Generations</p>
+</div>
 
-    <section id="about" class="cards-section">
-      <div class="section-heading">
-        <p class="eyebrow navy">WHO WE ARE</p>
-        <h2>Growing together.</h2>
-      </div>
-      <div class="cards">
-        <article><span>01</span><h3>Know God</h3><p>Discover God's Word and grow in a real relationship with Him.</p></article>
-        <article><span>02</span><h3>Find Community</h3><p>Build meaningful friendships and belong to a Christ-centered family.</p></article>
-        <article><span>03</span><h3>Live the Mission</h3><p>Serve people, share hope, and make a difference in our community.</p></article>
-      </div>
-    </section>
+<div class="bar">
+  <div><b>SUNDAY SERVICE</b><strong>5:00 PM - 8:00 PM EAT</strong></div>
+  <div><b>OUR LOCATION</b><strong>Zana - Entebbe Road, Kampala, Uganda</strong></div>
+  <div><b>CONTACT / MOBILE MONEY</b><strong>+256 760 395 110<br>+256 708 974 665</strong></div>
+  <div><b>EMAIL</b><strong>gensministry@gmail.com</strong></div>
+</div>
 
-    <section id="sermons" class="message">
-      <div>
-        <p class="eyebrow gold-text">LATEST MESSAGE</p>
-        <h2>Hear the Word.<br>Live the truth.</h2>
-        <p>Our sermon library will live here. We'll connect this section to your YouTube channel or video library in the next stage.</p>
-        <a class="btn gold" href="#">Watch Sermons</a>
-      </div>
-      <div class="message-box"><div class="play">▶</div><p>Latest sermon video</p></div>
-    </section>
+<div class="section about" id="about">
+  <div><img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800" alt="Holy Bible"></div>
+  <div>
+    <small style="color:#EAB308">— ABOUT US</small>
+    <h2 style="font-size:32px;margin:10px 0">Welcome to Generations Ministry</h2>
+    <p style="line-height:1.7;color:#444">We are a Christ-centered church family committed to helping people know God, grow in faith, build meaningful relationships, and serve our community. At Gens Ministry, we believe every generation matters, and together we can make an impact for His Kingdom.</p>
+    <p style="margin:15px 0"><b>Lead Pastor: Lucky Claudette</b></p>
+    <a href="#contact" class="btn-gold" style="display:inline-block">Learn More →</a>
+  </div>
+  <div class="pastor-card">
+    <small style="color:#B89A00;font-weight:bold">MEET OUR LEAD PASTOR</small>
+    <img src="pastor.jpg" alt="Pastor Lucky Claudette">
+    <h3>Lucky Claudette</h3>
+    <p>Lead Pastor, Generations Ministry</p>
+  </div>
+</div>
 
-    <section id="events" class="events">
-      <div class="section-heading">
-        <p class="eyebrow navy">WHAT'S HAPPENING</p>
-        <h2>Upcoming events.</h2>
-      </div>
-      <div class="event">
-        <div class="date"><strong>04</strong><span>OCT</span></div>
-        <div><h3>Sunday Fellowship</h3><p>Join Gens Ministry for worship, God's Word and fellowship.</p><small>4:00 PM · Zana</small></div>
-        <a href="#" class="arrow">→</a>
-      </div>
-    </section>
+<div class="section ministries" id="ministries">
+  <small style="color:#EAB308">— OUR MINISTRIES</small>
+  <h2 style="font-size:32px;margin:10px 0">For Every Generation</h2>
+  <p style="color:#ccc;max-width:600px">We have different ministries to help you grow, serve and belong. No matter your age or stage in life, there's a place for you at Gens Ministry.</p>
+  <div class="min-grid">
+    <div class="min"><div class="circle" style="background:#22A06B">👶</div><b>Children</b><br><small>Grow in faith</small></div>
+    <div class="min"><div class="circle" style="background:#E11D48">🧒</div><b>Youth</b><br><small>Find your purpose</small></div>
+    <div class="min"><div class="circle" style="background:#2563EB">🧑</div><b>Young Adults</b><br><small>Build your future</small></div>
+    <div class="min"><div class="circle" style="background:#EAB308">👨</div><b>Men</b><br><small>Be strengthened</small></div>
+    <div class="min"><div class="circle" style="background:#E11D48">👩</div><b>Women</b><br><small>Be empowered</small></div>
+    <div class="min"><div class="circle" style="background:#2563EB">🎵</div><b>Worship</b><br><small>Lift His name</small></div>
+  </div>
+</div>
 
-    <section id="connect" class="connect">
-      <div>
-        <p class="eyebrow gold-text">GET CONNECTED</p>
-        <h2>You don't have to walk alone.</h2>
-      </div>
-      <div class="connect-links">
-        <a href="#"><span>🙏</span> Prayer Request</a>
-        <a href="#"><span>🤝</span> Join a Ministry</a>
-        <a href="#"><span>📍</span> Visit Gens Ministry</a>
-        <a href="#give"><span>❤️</span> Give</a>
-      </div>
-    </section>
+<div class="watch" id="watch">🚀 <b>WATCH LIVE</b> — Sundays <span>5pm-8pm EAT</span> on YouTube • Facebook • Instagram • TikTok — <b>@ Generations Ministry</b></div>
 
-    <section id="give" class="give">
-      <p class="eyebrow navy">GENEROSITY</p>
-      <h2>Let's make a difference together.</h2>
-      <p>We'll add your official giving options here once you tell me how Gens Ministry receives giving.</p>
-      <a class="btn dark" href="#">Give to Gens Ministry</a>
-    </section>
+<div class="section" id="contact">
+  <small style="color:#EAB308">— CONNECT WITH US</small>
+  <h2 style="font-size:32px;margin:10px 0">You're Not Alone</h2>
+  <p style="color:#555;max-width:600px">We'd love to hear from you. Whether you have a prayer request, want to join a ministry, need support, or just want to know more — we're here for you.</p>
+  <div class="connect" style="margin-top:20px">
+    <div class="card"><b>🙏 Prayer</b><br><small>Submit a request</small></div>
+    <div class="card"><b>👥 Join a Ministry</b><br><small>Get involved</small></div>
+    <div class="card"><b>❤️ Give</b><br><small>Support the mission</small></div>
+    <div class="card"><b>📍 Visit Us</b><br><small>Find us in Zana</small></div>
+  </div>
+</div>
 
-    <section id="visit" class="visit">
-      <div><p class="eyebrow gold-text">PLAN YOUR VISIT</p><h2>We'd love to meet you.</h2></div>
-      <div><p><strong>Gens Ministry</strong></p><p>Zana, Kampala, Uganda</p><p>Service time: coming soon</p></div>
-    </section>
-  </main>
+<div class="section" id="events">
+  <small style="color:#EAB308">— UPCOMING EVENTS</small>
+  <h2 style="font-size:32px;margin:10px 0">Events</h2>
+  <div class="events-box">
+    <h3>No upcoming events yet.</h3>
+    <p>Stay tuned — new events will be added here soon.</p>
+    <!-- TO ADD AN EVENT IN FUTURE, COPY THIS BLOCK AND PASTE BELOW:
+    <div style="background:#fff;padding:15px;border-radius:10px;margin-top:15px;text-align:left"><b>Oct 05 - Sunday Fellowship</b><br>5:00 PM - 8:00 PM • Zana</div>
+    -->
+  </div>
+</div>
 
-  <footer>
-    <div class="footer-brand"><img src="logo.jpg" alt="Gens Ministry logo"><div><strong>GENS MINISTRY</strong><span>God doesn't lie · Titus 1:2</span></div></div>
-    <p>© 2026 Generations Ministry. All rights reserved.</p>
-  </footer>
-  <script src="script.js"></script>
+<div class="section give" id="give">
+  <div><h2>Make a Difference</h2><p style="color:#ddd">Your generosity helps us reach people, build lives, and share the love of Christ.</p></div>
+  <a href="#" class="btn-gold">Give Now →</a>
+  <div><b>Follow Us</b><br>Facebook • YouTube • Instagram • TikTok • WhatsApp<br><b>Generations Ministry</b></div>
+</div>
+
+<footer>
+  <b style="color:#EAB308;font-size:18px">GENERATIONS MINISTRY</b><br>GENS MINISTRY<br>God doesn't lie — Titus 1:2<br><br>
+  📧 gensministry@gmail.com<br>
+  📞 +256 760 395 110 / +256 708 974 665<br>
+  📍 Zana - Entebbe Road, Kampala, Uganda<br>
+  🔗 Facebook | YouTube | Instagram | TikTok | WhatsApp — Generations Ministry<br><br>
+  © 2026 Generations Ministry. All rights reserved.
+</footer>
+
 </body>
-</html>
+  </html>
